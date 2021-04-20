@@ -1,0 +1,12 @@
+/*Länka in alla csser här*/
+
+/*Generellt*/ 
+@import 'reset.css';
+@import 'typography.css';
+
+/*teman*/
+@import '../css/themes/main.css'; 
+
+
+/*components*/
+@import '../css/components/banner.css';

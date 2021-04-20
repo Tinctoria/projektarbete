@@ -1,0 +1,3 @@
+Rapport
+
+Jag börjar med att skapa min övergripande struktur på projektet med två html filer, en css-map och en img-map. 

@@ -1,0 +1,6 @@
+h2 {
+    font-family: var(--font-family-head);
+}
+p {
+    font-family: var(--font-family-content);
+}

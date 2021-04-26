@@ -1,18 +1,40 @@
-table {
-    margin-top:1rem;
+.table-wrap {
+    margin-top:2rem;
     padding: 2rem;
     border-style: dashed;
     border-color: var(--primary-dark-color);
     border-radius: 1rem;
-    background-color: var(--primary-color);
 }
 
-tbody tr{
+table {
+    margin-top:2rem;
+    border-collapse: collapse;
+}
+
+tbody>tr{
     border-style: solid;
+    border: 5%;
     border-color: var(--primary-dark-color);
-    border-width: 2px;
-    border-radius: unset;
+    border-width: 0.1rem;
+    transition: 1s;
 }
+
 th, td{
-    padding: 0.5rem;
+    padding:0.5rem;
+    text-align: start;
 }
+
+/* något som inte funkar och kan inte fatta varför 
+tbody>tr>td:first-of-type{
+    border: 0.2rem, solid, var(--primary-dark-color);
+
+}
+*/
+
+tr:hover {
+    font-weight: bold;
+    transition: 2s;
+
+
+}
+

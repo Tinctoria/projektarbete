@@ -1,0 +1,17 @@
+article {
+    margin: 1rem;
+    flex:1; 
+    border-style: dashed;
+    border-color: var(--primary-dark-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 3s; 
+}
+
+article h2 {
+    margin-bottom: 1rem;
+}
+article:hover {
+    border-style: solid;
+    transition: 3s; 
+}

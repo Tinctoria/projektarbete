@@ -1,0 +1,18 @@
+
+.side-img {
+    flex:1; 
+    padding: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+img {
+    margin: 1rem;
+    max-width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    
+        
+}

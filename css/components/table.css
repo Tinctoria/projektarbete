@@ -1,0 +1,18 @@
+table {
+    margin-top:1rem;
+    padding: 2rem;
+    border-style: dashed;
+    border-color: var(--primary-dark-color);
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+tbody tr{
+    border-style: solid;
+    border-color: var(--primary-dark-color);
+    border-width: 2px;
+    border-radius: unset;
+}
+th, td{
+    padding: 0.5rem;
+}

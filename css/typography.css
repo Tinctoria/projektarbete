@@ -1,6 +1,33 @@
-h2 {
+
+/*header*/
+
+.banner h1 {
+    color: var(--light-text-color);
+}
+.banner p {
+    color: var(--light-text-color);
+}
+
+/*generellt*/
+h1, h2, h3 {
     font-family: var(--font-family-head);
+    color: var(--text-color);
 }
 p {
     font-family: var(--font-family-content);
+    color: var(--text-color);
+}
+table { 
+    font-family: var(--font-family-content);
+    color: var(--text-color);
+}
+
+
+/*Navbar*/
+a {
+    text-decoration: none;
+    color: var(--light-text-color);
+    transition: 1s;
+    font-size: 1rem;
+    font-weight: bold;
 }

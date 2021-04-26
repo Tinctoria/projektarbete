@@ -1,0 +1,9 @@
+.content-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40%;
+    height: auto;
+    background-color: var(--primary-color);
+}

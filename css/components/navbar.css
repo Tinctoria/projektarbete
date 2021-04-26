@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--primary-dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbtn {
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color: unset;
+    transition: 1s;
+    display: flex;
+}
+
+.navbtn a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*hover*/
+
+.navbtn:hover {
+    background-color: var(--primary-color);
+    transition: 1s;    
+}
+.navbtn a:hover{
+    transition: 1s;
+    color: var(--text-color);
+}

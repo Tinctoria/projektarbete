@@ -1,3 +1,67 @@
 Rapport
 
-Jag börjar med att skapa min övergripande struktur på projektet med två html filer, en css-map och en img-map. 
+Jag börjar med att skapa min övergripande struktur på projektet med två html filer, en css-map, 
+en mapp för tredjepartsbibliotek och en för bilder.
+I css mappen skapar jag en reset.css där jag tar bort allt som webläsaren lägger till automatiskt. 
+En style.css som jag länkar till i html som i sin tur länkar in alla andra css-filer. 
+Jag skapar här också en typography.css för all textrelaterad styling. Jag skapar också två undermappar, 
+en med komponenter som jag fyller på allt eftersom, och en med färgteman, jag plockar de färger jag vill 
+ha från palletten som tillhör uppgiften och gör dem till variabler. I temat lägger jag även in vilka 
+fonter jag vill ha, detta för att förenkla byte i ett senare skede.
+
+Nu när jag har min struktur börjar jag med sida ett av hemsidan, och de komponenter som skall finnas 
+på båda webbplatsens sidor. Överst vill jag ha en banner med en bild, en fade och en text med hemsidans namn. 
+Detta skapar jag med hjälp av en header tag, som jag lägger en bakgrundsbild på, 
+en h1-tag för namnet och en p tag för slogan. Faden lägger jag i en egen header som jag sedan absolutpositionerar
+över den andra. Texten får jag då flytta lite i z-led för att den skall synas. 
+Allt detta stylas i en css fil som jag skapat under mappen components och döpt till banner.css.
+
+Nästa steg är ett navigeringsfält under bannern. En nav-tag verkar lämpligt. Eftersom jag vill navigera till 
+andra sidor lägger jag a-taggar i navigeringsfältet. En som tar mig till nuvarande sida och en som tar mig till
+"katalog"sidan. Jag stylar navbaren i en egen csskomponent som jag döper till navbar.css. 
+
+Härefter vill jag ha lie innehåll, men det kommer vara lite olika beroende på vilken sida jag är på, så jag skapar
+en mer generell main tag som är återkommande och håller i sidans innehåll. För att styla den skapar jag en main.css
+fil under komponenter. 
+
+Sist men inte minst vill jag ha en avslutande bar, jag skapar en footer-tag som jag stoppar en navbar i, 
+detta eftersom jag vill att den skall ha samma övergripande utseende som denna. 
+Innehållet vill jag dock ha lite annorlunda, bara en blänkare att det är jag som skapat sidan och en 
+länk till min github. Jag stylar även denna i navbar.css komponenten men för att hålla isär den och 
+den översta lägger jag en class navbar-bottom på den. 
+
+Sedan kopierar jag över de återkommande elementen till min katalog.html sida och ändrar länkarna i 
+navbaren så de stämmer med var jag är nu. 
+
+Nu till innehållet i de två sidorna. 
+Första sidan, index.html, skall förklara syftet med sidan: att agera telefonkatalog. 
+Detta vill jag göra med text som har en överskrift, jag gör en article-tag som jaglägger i main-taggen, 
+med en h2 och en p-tag i. Jag skriver en överskrift och en kort text om vad sidans syfte är.  
+För att få lite mer innehåll så lägger jag till ytterligare en article tag med samma utseende men 
+lite annat textinnehåll. Jag stylar dem i article.css komponenten. Sidan känns ändå lite tunn så jag lägger 
+till en bild. För att den ska separeras lite från artiklarna lägger jag den i en aside-tag och stylar den i 
+aside.css komponenten.
+
+Till katalogsidan vill jag ha ett liknande upplägg som hem-sidan, jag skapar en section tag i main, ger den 
+en class table-wrap. I sektionen lägger jag en överskrift h2, och sedan en tabell med namn och telefonnr i. 
+Tabellen bygger jag upp med table-taggenn, thead och tbody med tr (tablerow) samt th och td för alla värden. 
+Allt detta stylar jag i table.css komponenten. 
+För att även katalogsidan ska se lite roligare ut lägger jag in en likadan aside-tag som i index.html fast 
+med en annan bild.  
+
+Jag märker att det tar lång tid att ladda sidorna när jag testar så jag förminskar bilderna lite för att 
+få ner laddningstiderna. 
+
+Nu har jag allt mitt innehåll, stylat allt med css, länkat alla css och tredjepartsbibliotek till style.css. 
+Jag kontrollerar även båda mina html-filer med validatorn så jag vet att de är ok innan jag börjar med nästa steg. 
+
+Vilket är att göra sidan responsiv. 
+Jag har varit noga med att använda responsiva enheter så jag kommer förhoppningsvis bara behöva göra små förändringar 
+för att anpassa sidan till andra enheter. Jag skapar först och främst en css fil för detta och kallar den media.css 
+samt länkar in den i style.css. Sedan kontrollerar jag att meta-taggen för enhetsbaserad viewport är med i head. 
+
+ 
+
+
+
+

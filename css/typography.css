@@ -28,6 +28,11 @@ a {
     text-decoration: none;
     color: var(--light-text-color);
     transition: 1s;
+    font-family: var(--font-family-content);
     font-size: 1rem;
     font-weight: bold;
+    
+}
+.navbar-bottom a{
+    font-weight: 500;
 }

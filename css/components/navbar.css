@@ -14,14 +14,9 @@ nav {
     background-color: unset;
     transition: 1s;
     display: flex;
-}
-
-.navbtn a {
-    width: 100%;
-    height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /*hover*/
@@ -29,8 +24,13 @@ nav {
 .navbtn:hover {
     background-color: var(--primary-color);
     transition: 1s;    
-}
-.navbtn a:hover{
-    transition: 1s;
     color: var(--text-color);
+}
+
+/*navbar bottom*/
+.navbar-bottom {
+    justify-content: flex-end;
+}
+.navbar-bottom a{
+    margin-right: 2rem;
 }

@@ -7,6 +7,9 @@
 /*teman*/
 @import '../css/themes/maintheme.css'; 
 
+/*tredjepartsbibliotek*/
+@import '../third/icons-1.4.0/font/bootstrap-icons.css';
+
 
 /*components*/
 @import '../css/components/banner.css';
@@ -15,3 +18,6 @@
 @import '../css/components/article.css';
 @import '../css/components/aside.css';
 @import '../css/components/table.css';
+
+/*Responsivitet med media querys*/
+@import 'media.css'

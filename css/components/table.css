@@ -1,3 +1,5 @@
+/*table styling*/
+
 .table-wrap {
     margin-top:2rem;
     padding: 2rem;
@@ -24,17 +26,8 @@ th, td{
     text-align: start;
 }
 
-/* något som inte funkar och kan inte fatta varför 
-tbody>tr>td:first-of-type{
-    border: 0.2rem, solid, var(--primary-dark-color);
-
-}
-*/
-
 tr:hover {
     font-weight: bold;
     transition: 2s;
-
-
 }
 

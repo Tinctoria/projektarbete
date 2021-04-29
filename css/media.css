@@ -14,3 +14,6 @@
 @media screen and (max-width: 320px) {
     th, td{padding:0.2rem;}
 }
+@media screen and (max-width: 300px) {
+    .table-wrap {border: none;}
+}

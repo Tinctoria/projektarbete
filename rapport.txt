@@ -65,6 +65,7 @@ Hittar tre lägen där det ser konstigt ut och sedan bygger jag upp mina media q
 När det ser bra ut i samtliga lägen är jag nöjd. 
 
 Kontrollerar ytterligare en gång att min kod är 100% godkänd i valideringsverktyget. 
+För skojs skull skapar jag ytterligare ett färgtema. 
 
 Därefter är jag klar och pushar mina ändringar till Github. 
 

@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #dfe4ea;
+    --primary-dark-color: #57606f;
+    --primary-dark-rgba: rgb(87, 96, 111,0.7); /* primary dark in rgb, but transparent*/
+    --font-family-head: 'Marck Script', cursive;
+    --font-family-content: 'Roboto', sans-serif;
+    --text-color:#2f3542; 
+    --light-text-color: #ffffff;
+}

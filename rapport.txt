@@ -61,11 +61,11 @@ för att anpassa sidan till andra enheter. Jag skapar först och främst en css 
 samt länkar in den i style.css. Sedan kontrollerar jag att meta-taggen för enhetsbaserad viewport är med i head. 
 
 Jag använder inspektionsverktyget i webbläsaren för att byta mellan olika enheter och kolla när det börjar blir konstigt. 
-Hittar tre lägen där det ser konstigt ut och sedan bygger jag upp mina media queries efter dem. 
+Hittar fyra lägen där det ser konstigt ut och sedan bygger jag upp mina media queries efter dem. 
 När det ser bra ut i samtliga lägen är jag nöjd. 
 
 Kontrollerar ytterligare en gång att min kod är 100% godkänd i valideringsverktyget. 
-För skojs skull skapar jag ytterligare ett färgtema. 
+Sedan, för skojs skull, skapar jag ytterligare ett färgtema. 
 
 Därefter är jag klar och pushar mina ändringar till Github. 
 
